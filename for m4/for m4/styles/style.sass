@@ -1,0 +1,398 @@
+//---main setings
+*, ::after, ::before
+	box-sizing: border-box
+	margin: 0
+	padding: 0
+
+::after,::before
+	content: ""	
+ul
+	list-style: none
+	margin: 0
+	padding: 0	
+p
+	margin: 0
+	padding: 0	
+a
+	&:hover
+		text-decoration: none
+button
+	background: none
+	border: 1px solid transparent
+
+	&:hover
+		cursor: pointer		
+.clear
+	clear: both		
+body
+	color: white
+//---end of mset
+
+
+.container-fluid.main
+	position: relative
+	width: 100%
+	height: 100%
+	// width: 100vw
+	// height: 100vh
+	background-color: #343739
+	padding: 20px 20px
+	overflow: hidden
+
+
+
+//---header
+.logo-box
+	.logo
+		margin-left: 50px
+		position: relative
+
+		&::after
+			display: block
+			position: absolute
+			top: -3px
+			left: 135px
+			width: 32px
+			height: 13px
+			background: url(../imgs/beta.png) no-repeat 0px 0px
+	/*&:after
+		content: ""
+		width: 32px
+		height: 13px
+		background-image: url(imgs/beta.png) no-repeat 0% 0% */	
+
+
+.head-menu
+	overflow: hidden
+	text-align: right	
+	padding-top: 10px	
+	.in-head
+		display: inline-block
+		float: left
+	.avatar
+		display: inline-block
+		width: 10%
+		margin-right: 25px
+		.head-avatar
+			padding: 25px 45px
+			background: url(../imgs/head-avatar.png) no-repeat 0px 15px
+
+	.search
+		width: 65%		
+	.search-line-wrap
+		display: none
+		width: 240px
+		float: left
+		margin: 0
+
+		.form-control
+			width: 100%
+			height: 2.2em
+			margin: 0
+			background: rgba(255,255,255,1)
+			border: 1px solid #999
+
+	.head-search-btn
+		height: 21px
+
+		span.search-btn
+			display: inline-block
+			padding: 15px
+			background: url(../imgs/head-search-item.png) no-repeat 0px 5px
+
+	.more-menu-btn
+		display: inline-block	
+		a
+			display: inline-block
+			color: #fefefe
+			font-size: 13px
+			width: 80px
+			padding: 0 25px 0
+			text-align: left
+			background: url(../imgs/head-arrow-item.png) no-repeat 67px 8px, url(../imgs/head-set-btn.png) no-repeat 1px 2px
+
+			&:hover
+				color: #389de7
+//---end of header	
+
+
+
+
+//--- side-menu
+//-button for open / close side-menu
+#head-menu-btn
+	display: inline-block
+	position: absolute
+	top: 6px
+	left: 20px
+	height: 20px
+
+	vertical-align: middle
+	
+	.menu-btn-icon
+		display: inline-block
+		vertical-align: middle
+		width: 20px
+		height: 14px
+		background: url(../imgs/head-menu-btn.png) no-repeat 0px 0px
+		background-size: 20px 14px
+
+p.menu-fix
+	margin-bottom: 15px
+	a.side-menu-fixed
+		display: block
+		width: 35px
+		padding: 18px 0 0
+		background: url(../imgs/side-menu-fixed.png) no-repeat 5px 0px
+		transition: transform .3s ease-in-out		
+		
+		&:hover, :active
+			//-transform-origin: 0 100%
+			transform: rotate(-45deg)
+
+#side-menu
+	width: 230px
+	float: left
+
+//-----------when menu hidden
+#side-menu.hide
+	display: none
+
+.left-side-menu
+	background: #343739
+	overflow: hidden
+	color: #389de7
+	padding: 0px 5px 10px 20px
+
+.left-menu-item
+	
+	li.active a
+		color: #389de7
+	li 
+		padding-top: 10px 
+		margin-bottom: 10px
+
+		&:hover a
+			color: #389de7
+
+		a
+			color: #aeafb0
+			font-size: 14px
+			
+			
+		a.menu-item
+			display: block
+			width: 100%
+			padding-left: 35px
+		a.active-item
+			color: #389de7	
+		a.dash-item
+			background: url(../imgs/dash-item.png) no-repeat 0% 3px, url(../imgs/arrow-item.png) no-repeat 100% 6px
+		a.work-item
+			background: url(../imgs/work-item.png) no-repeat -1px 0px, url(../imgs/arrow-item.png) no-repeat 100% 6px
+		a.gym-item
+			background: url(../imgs/gym-item.png) no-repeat 1px 0px, url(../imgs/arrow-item.png) no-repeat 100% 6px
+		a.add-item
+			background: url(../imgs/add-item.png) no-repeat 0px 0px, url(../imgs/arrow-item.png) no-repeat 100% 6px
+		a.body-item
+			background: url(../imgs/body-item.png) no-repeat 2px 0px, url(../imgs/arrow-item.png) no-repeat 100% 6px
+		a.prof-item.active-item
+			background: url(../imgs/prof-item-active-item.png) no-repeat 0px 2px, url(../imgs/arrow-item-active-item.png) no-repeat 100% 6px
+		a.msg-item
+			background: url(../imgs/msg-item.png) no-repeat 0px 5px, url(../imgs/arrow-item.png) no-repeat 100% 6px	
+//--- end side-menu	
+
+//---contant for u
+#side-contant
+	float: right
+.contant-cont
+	width: calc(100% - 230px)
+	padding-right: 0
+.tabs-cont-wrap
+	overflow: hidden
+	background-color: #3e4042
+//--tabs
+.tabs
+	width: auto
+	height: auto
+
+	ul 
+		background-color: #3e4042
+		margin: 0 auto
+
+//- when tab-btn active
+
+.tabs ul li.active
+	border-bottom: 5px solid #389de7
+	
+
+.tabs ul li
+	display: inline-block
+	width: calc(100% / 8)
+	float: left
+	margin: 0
+	overflow: hidden
+	text-align: center
+
+	&:hover
+		color: #fff
+		background-color: rgba(255,255,255,.1)
+		border-bottom: 5px solid #389de5
+	
+	a.tabs-btn
+		display: inline-block	
+		font-size: 14px	
+		max-height: 50px
+		padding: 12px 8px 7px
+		color: #aeafb0
+
+	&:hover a
+		color: #fff
+//- tabs content
+
+.tabs-cont
+	width: 100%
+	padding: 15px 25px
+	overflow: hidden
+	background-color: #efefef
+
+	.site-tree
+		font-size: 12px
+		width: 40%
+		margin-bottom: 20px
+
+	.site-tree ul li
+		display: inline-block
+		float: left
+
+		&:hover a
+			text-decoration: underline 
+
+	a.site-tree-btn
+		padding: 0 5px 0 25px
+		background: url(../imgs/site-tree-arrow.png) no-repeat 5px 7px
+		color: #999
+
+	.site-tree ul li:first-child a.site-tree-btn
+		padding: 0 5px 0 10px
+		background: none
+
+//-profile box
+.profile-box-cont
+	width: calc(100% / 2)
+	float: left
+
+	.profile-box
+		width: 100% 
+		float: left
+		position: relative 
+		overflow: hidden
+		padding: 15px 20px
+		margin: 0 10px 10px 0
+		background-color: #fff
+		border-radius: 4px
+		font-size: 1em
+		
+	
+		.prof-set-menu-wrap
+			overflow: hidden
+			position: absolute
+			top: 15px
+			right: 20px
+			
+			.prof-set-menu
+				width: 6px
+
+		.prof-info
+			display: inline-block
+			color: #333
+			width: 100%
+			margin-bottom: 10px
+		
+			h2
+				display: inline-block
+				font-size: 24px
+				margin-left: 15px
+
+			.prof-img-box
+				overflow: hidden
+				float: left
+				max-width: 154px
+				display: inline-block
+				margin-right: 1.2em
+
+			ul 
+				display: inline-block
+				margin-left: 15px
+
+				li.prof-inf
+					padding-left: 40px 
+					font-size: 16px
+					line-height: 32px
+					// font-weight: bold
+
+				li.prof-inf.points
+					background: url(../imgs/prof-info.png) no-repeat 0px 7px
+				li.prof-inf.country
+					background: url(../imgs/prof-info.png) no-repeat 0px -25px
+				li.prof-inf.year-sex
+					background: url(../imgs/prof-info.png) no-repeat 0px -57px
+
+//-prof-about
+.prof-info-about
+	width: 100%
+	color: #333
+	font-size: 15px
+	line-height: 32px
+
+	li.medals
+		span
+			padding-top: 2px  
+			display: inline-block
+			padding-left: 40px
+
+		span.gold-medal
+			background: url(../imgs/medals.png) no-repeat 9px 5px
+		span.silver-medal
+			background: url(../imgs/medals.png) no-repeat -63px 5px
+		span.bronze-medal
+			background: url(../imgs/medals.png) no-repeat -145px 5px
+
+	.prof-about-item
+		overflow: hidden
+		margin-bottom: 10px
+
+	.prof-social-wrap
+		margin: 25px 0
+
+		.prof-social-item
+			overflow: hidden	
+			li
+				float: left
+				margin-right: 12px
+				transition: transform .1s ease-out
+
+				&:hover
+					transform: rotateX(45deg)
+
+			.social-fb,.social-tw,.social-vk
+				display: inline-block
+				width: 34px
+				height: 34px
+				
+	
+			.social-fb
+				background: url(../imgs/fb-tw-vk-item.png) no-repeat 0px 0px
+			.social-tw
+				background: url(../imgs/fb-tw-vk-item.png) no-repeat -42px 0px	 
+			.social-vk
+				background: url(../imgs/fb-tw-vk-item.png) no-repeat -84px 0px		
+				
+//-end profile box
+
+//---end contant for u
+
+
+//-----------ostanovka na viravnivanii strelock
+	
+

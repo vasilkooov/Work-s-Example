@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="content-type" content="text/html" charset="utf-8">
+  <title>Workout Catalog)</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+  <script src="scripts/main.js" type="text/javascript"></script>
+</head>
+<body>
+  <div ng-app="showApp" ng-controller="mainController" class="container-fluid main">
+    <div style="margin-bottom: 20px" class="row">
+      <div class="col-sm-3 logo-box">
+        <div ng-click="showSideBar = !showSideBar" class="header-menu-box">
+          <button id="head-menu-btn"><a href="#"></a><span class="menu-btn-wrap"><span class="menu-btn-icon"></span></span></button>
+        </div><a href="#" alt="logo-beta" class="logo"><img src="imgs/logo.png" alt="logo-beta"></a>
+      </div>
+      <div class="col-sm-5 offset-sm-4 head-menu">
+        <div class="search in-head">
+          <form class="bd-search">
+            <div class="search-line-wrap">
+              <input type="text" id="search-input" placeholder="Search ..." autocomplete="off" class="form-control">
+            </div>
+            <button class="head-search-btn"><span class="search-btn"></span></button>
+            <div id="search-results" class="dropdown-menu bd-search-results"></div>
+          </form>
+        </div>
+        <div class="avatar in-head"><a href="#"><span class="head-avatar"></span></a></div>
+        <div class="more-menu-btn in-head"><a href="#">More</a></div>
+      </div>
+    </div>
+    <div class="row">
+      <div id="side-menu" ng-show="showSideBar" class="col-sm-3 left-side-menu">
+        <p class="menu-fix"><a href="#" alt="fixed-menu" class="side-menu-fixed"></a></p>
+        <div class="left-main-menu-cont">
+          <ul class="left-menu-item">
+            <li><a href="#" class="menu-item dash-item">Dashboard</a></li>
+            <li><a href="#" class="menu-item work-item">My Workout</a></li>
+            <li><a href="#" class="menu-item gym-item">My Gym</a></li>
+            <li><a href="#" class="menu-item add-item">Add content</a></li>
+            <li><a href="#" class="menu-item body-item">My Body</a></li>
+            <li><a href="#" class="menu-item prof-item active-item">Profile and setting</a></li>
+            <li><a href="#" class="menu-item msg-item">Massage</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="side-contant" class="col-sm-9 contant-cont">
+        <div class="tabs-cont-wrap">
+          <div class="tabs">
+            <ul>
+              <li class="active"><a href="#" class="tabs-btn"><span>WORKOUT(WOD)</span></a></li>
+              <li><a href="#" class="tabs-btn"><span>EXERCISES</span></a></li>
+              <li><a href="#" class="tabs-btn"><span>LEADERBOARD</span></a></li>
+              <li><a href="#" class="tabs-btn"><span>DISCUSSION</span></a></li>
+              <li><a href="#" class="tabs-btn"><span>NEWS</span></a></li>
+              <li><a href="#" class="tabs-btn"><span>EVENTS</span></a></li>
+              <li><a href="#" class="tabs-btn"><span>STORE</span></a></li>
+              <li><a href="#" class="tabs-btn"><span>GYM&BOX	</span></a></li>
+            </ul>
+          </div>
+          <div class="tabs-cont">
+            <div class="site-tree">
+              <ul>
+                <li><a href="#" class="site-tree-btn">Profile and settings</a></li>
+                <li><a href="#" class="site-tree-btn">	View profile	</a></li>
+              </ul>
+              <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+            <div class="profile-box-cont">
+              <div class="profile-box">
+                <div class="prof-set-menu-wrap">
+                  <div class="prof-set-menu"><a href="#" alt="set-menu"><img src="imgs/prof-set-menu.png" width="6px" height="24px" alt="set-menu"></a></div>
+                </div>
+                <div class="prof-info">
+                  <div class="prof-img-box">
+                    <p><img src="imgs/profile-img.png" width="154px" height="154px" alt="img-profile"></p>
+                  </div>
+                  <h2>Christmas Abbott</h2>
+                  <ul>
+                    <li class="prof-inf points"><span>15600</span></li>
+                    <li class="prof-inf country"><span>Singapore, Jurong</span></li>
+                    <li class="prof-inf year-sex"><span>27 years, female</span></li>
+                  </ul>
+                </div>
+                <div class="clear">		</div>
+                <div class="prof-info-about">
+                  <ul class="prof-about-item">
+                    <li class="gym"><strong>Gym:  </strong><span>BestGym</span></li>
+                    <li class="level"> <strong>Athlete Level:  </strong><span>4</span></li>
+                    <li class="stage"> <strong>Start Crosfit:  </strong><span>10 years ago</span></li>
+                    <li class="medals"> <strong>Medals:  </strong><span class="gold-medal">x 52</span><span class="silver-medal">x 163</span><span class="bronze-medal">x 91</span></li>
+                  </ul>
+                  <p class="prof-about"><strong>About: </strong>I'm quirky and love CF. I started my CF athletic journey in 2006 and have loved every painful minute since. I own and am head coach of CF Invoke (crossfitinvoke.com) I am a Head Trainer for CFHQ for the Level 1 Seminars. I'm venturing into the world of NASCAR as a front tire changer...a whole new world. I have an English Bulldog named Fran. Favorite WODs: Nasty Girls, Fran, Helen, Nancy....in no particular order. They are all amazing.</p>
+                  <div class="prof-social-wrap">
+                    <ul class="prof-social-item">
+                      <li><a href="#" class="social-fb"></a></li>
+                      <li><a href="#" class="social-tw"></a></li>
+                      <li><a href="#" class="social-vk"></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous">		</script>
+</body>

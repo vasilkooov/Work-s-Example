@@ -1,0 +1,178 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\000033}}
+*, ::before, ::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\000038}}
+::before, ::after { content: ""; z-index: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\0000312}}
+ul { position: relative; list-style: none; margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\0000317}}
+body { font: 14px/16px, sans-serif; font-family: "Open Sans", sans-serif; font-weight: 400; min-width: 320px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\0000323}}
+.clear { clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\0000325}}
+a { text-decoration: none; color: #3498db; -webkit-transition: all 0.2s ease-out; transition: all 0.2s ease-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\0000331}}
+a:hover, button:hover, select:hover, input:hover { cursor: pointer; color: #0db3c0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\0000334}}
+a:focus, a :active, button:focus, button :active, select:focus, select :active, input:focus, input :active { outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\0000337}}
+input, textarea { -webkit-transition: all 0.2s ease-out; transition: all 0.2s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\0000339}}
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder { color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\0000353}}
+.container { width: 100%; height: auto; position: relative; background-color: #fff; margin-bottom: 625px; z-index: 3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\0000365}}
+header { width: 100%; min-width: 320px; max-width: 1080px; height: auto; min-height: 100px; margin: 0 auto; position: relative; overflow: hidden; background-color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\0000377}}
+.logo { display: inline-block; width: auto; max-width: 20%; height: 100%; margin: 30px 0 0; float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\0000386}}
+.header-nav { position: relative; float: right; width: auto; min-width: 45%; max-width: 75%; height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\0000394}}
+.header-nav ul { display: inline-block; width: 100%; height: 100%; margin: 0 50px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003100}}
+.header-nav ul li.nav-item { display: inline-block; width: auto; height: 100%; margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003106}}
+.header-nav ul li.nav-item a.nav-btn { display: inline-block; width: 85px; height: 100px; color: #484c55; padding-top: 30px; margin: 0; text-align: center; vertical-align: middle; border-bottom: 3px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003118}}
+.header-nav ul li.nav-item a.nav-btn:hover, .header-nav ul li.nav-item a.nav-btn a.active { cursor: pointer; background-color: #f8f9fb; border-bottom: 3px solid #49cbcd; color: #49cbcd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003123}}
+.header-nav ul li.nav-item a.active { background-color: #f8f9fb; color: #49cbcd; border-bottom: 3px solid #49cbcd; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003130}}
+.gallery-cont { position: relative; margin: 0 auto 50px; max-width: 1440px; max-height: 570px; background-color: #f3f3f3; overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003139}}
+.gallery-cont a.prev, .gallery-cont a.next { cursor: pointer; position: absolute; top: 50%; width: 50px; height: 50px; background: #fff url(../img/gal/next-btn.png) no-repeat 15px 11px; margin-top: -22px; margin-left: 30px; padding: 16px; color: white; font-weight: bold; font-size: 18px; opacity: 0.7; -webkit-transition: all 0.4s ease; transition: all 0.4s ease; border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003157}}
+.gallery-cont a.next { right: 0; background: #fff url(../img/gal/next-btn.png) no-repeat -22px 11px; margin-right: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003162}}
+.gallery-cont a.prev:hover, .gallery-cont a.next:hover { opacity: 0.9; background-position: 12px 11px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003166}}
+.gallery-cont a.next:hover { background-position: -18px 11px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003169}}
+.gallery-cont .fade { -webkit-animation-name: fade; -webkit-animation-duration: 1.8s; -webkit-animation-name: fade; animation-name: fade; -webkit-animation-duration: 1.8s; animation-duration: 1.8s; }
+@-webkit-keyframes "fade" { 0% { opacity: 0.3; }
+  100% { opacity: 1; } }
+@keyframes "fade" { 0% { opacity: 0.3; }
+  100% { opacity: 1; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003187}}
+.in-slide { display: block; position: absolute; top: 30%; left: 0; width: 100%; text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003195}}
+.in-slide h1 { font-size: 63px; font-weight: 600; color: #fff; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003202}}
+.in-slide p { padding: 0 32%; font-size: 23px; font-weight: 400; color: #fff; line-height: 37px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003210}}
+.in-slide a.slide-btn { display: block; width: auto; max-width: 230px; height: 65px; border: 3px solid #fff; border-radius: 5px; text-align: center; margin: 40px auto; padding: 18px 35px 20px; -webkit-transition: all 0.3 ease-in-out; transition: all 0.3 ease-in-out; background: rgba(255, 255, 255, 0.01); box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.18); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003226}}
+.in-slide a.slide-btn:hover { box-shadow: 0px 6px 7px 4px rgba(0, 0, 0, 0.28); background: rgba(255, 255, 255, 0.18); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003229}}
+.in-slide a.slide-btn span { font-size: 26px; font-weight: 600; color: #fff; line-height: 24px; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003239}}
+section.team { width: 100%; min-width: 320px; max-width: 1080px; height: auto; margin: 0 auto; position: relative; background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003249}}
+section.team .teammate-block { display: inline-block; position: relative; width: calc(100% / 4); height: auto; text-align: center; float: left; font-size: 1em; font-weight: 400; color: #4e525d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003262}}
+section.team .teammate-block .img-person { display: block; width: 201px; height: auto; margin: 0 auto 55px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003268}}
+section.team .teammate-block .img-person .plus { display: block; position: absolute; top: 85px; left: 112px; opacity: 0; width: 42px; height: 41px; background: url(../img/page/img-team-plus.png) no-repeat 0px 0px; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003281}}
+section.team .teammate-block .img-person:hover .plus { opacity: 1; top: 77px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003284}}
+section.team .teammate-block .img-person .plus.active { opacity: 1; top: 77px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003288}}
+section.team .teammate-block h3 { font-size: 22px; line-height: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003291}}
+section.team .teammate-block span { font-size: 14px; line-height: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003294}}
+section.team .teammate-block p { margin: 25px 0 30px; font-size: 14px; line-height: 26px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003299}}
+section.prop { width: 100%; height: auto; background-color: #f1f1f1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003304}}
+.proposition-block { width: 100%; min-width: 320px; max-width: 1170px; height: auto; margin: 0 auto 100px; padding: 120px 0 0; position: relative; overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003315}}
+.proposition-block .prop-box { display: inline-block; width: calc(100% / 3 - 30px); max-width: 360px; height: auto; max-height: 525px; background-color: #f8f9fb; float: left; margin: 0 15px 70px; text-align: center; border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003329}}
+.proposition-block .prop-box:hover .prop-btn { background-color: #49cbcd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003331}}
+.proposition-block .prop-box:hover .prop-title { background-color: #49cbcd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003334}}
+.proposition-block .prop-box .prop-title { display: block; width: 100%; height: 75px; background-color: #485460; border-radius: 3px 3px 0 0; padding-top: 10px; margin-bottom: 10px; -webkit-transition: all 0.5s ease-out; transition: all 0.5s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003345}}
+.proposition-block .prop-box .prop-title h2 { font-size: 26px; color: #fff; line-height: 48px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003350}}
+.proposition-block .prop-box h3 { font-size: 20px; color: #485460; line-height: 48px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003355}}
+.proposition-block .prop-box ul { background-color: #fff; border: 1px solid #ecf0f1; border-bottom: none; color: #8c9299; margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003361}}
+.proposition-block .prop-box ul li { display: block; font-size: 14px; line-height: 45px; border: none; border-bottom: 1px solid #ecf0f1; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003368}}
+.proposition-block .prop-box ul li:hover { color: #7a8189; background-color: #f8f9fb; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003373}}
+.proposition-block .prop-box .prop-btn { display: inline-block; width: 170px; height: 40px; background-color: #788492; border-radius: 5px; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003381}}
+.proposition-block .prop-box .prop-btn span { font-size: 17px; font-weight: 600; color: #fff; line-height: 36px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003387}}
+.proposition-block .prop-box .prop-btn:hover { background-color: #61e0e2; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003392}}
+.proposition-block .prop-box.active .prop-btn { background-color: #49cbcd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003394}}
+.proposition-block .prop-box.active .prop-title { background-color: #49cbcd; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003399}}
+footer { background: #000 url(../img/page/footer-bg.jpg) no-repeat 0px 0px; color: #fff; padding: 40px 0; position: fixed; bottom: 0; width: 100%; height: auto; max-height: 688px; z-index: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003411}}
+footer .foo-cont-wrap { width: 100%; min-width: 320px; max-width: 1170px; height: auto; min-height: 100px; margin: 0 auto 40px; position: relative; overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003422}}
+footer .foo-cont-wrap .left-side { float: left; width: 50%; padding-right: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003427}}
+footer .foo-cont-wrap .right-side { float: right; width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003432}}
+footer .foo-cont-wrap .foo-title { width: 100%; margin: 0 auto; margin: 100px auto 110px; text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003437}}
+footer .foo-cont-wrap .foo-title h2 { font-size: 42px; font-weight: 400; line-height: 24px; color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003445}}
+footer .foo-cont-wrap .info-box .touch-box { width: 100%; color: #8e8e8e; font-size: 14px; line-height: 21px; margin-bottom: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003451}}
+footer .foo-cont-wrap .info-box .touch-box h3 { font-size: 24px; font-weight: 400; line-height: 24px; color: #fff; margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003458}}
+footer .foo-cont-wrap .social-box { width: 100%; margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003463}}
+footer .foo-cont-wrap .social-box a.soc-item { display: inline-block; float: left; margin-right: 10px; width: 48px; height: 48px; border-radius: 50%; -webkit-transition: all 0.5s ease-in; transition: all 0.5s ease-in; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003472}}
+footer .foo-cont-wrap .social-box a.soc-item:hover { -webkit-transform: rotateY(360deg); transform: rotateY(360deg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003474}}
+footer .foo-cont-wrap .social-box a.fb { background: url(../img/icon/footer-social.png) no-repeat 0px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003476}}
+footer .foo-cont-wrap .social-box a.tw { background: url(../img/icon/footer-social.png) no-repeat -55px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003478}}
+footer .foo-cont-wrap .social-box a.g { background: url(../img/icon/footer-social.png) no-repeat -112px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003481}}
+footer .foo-cont-wrap .contacts { width: 100%; font-size: 14px; line-height: 24px; color: #bface2; margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003490}}
+footer .foo-cont-wrap .mail-box .comment-box { width: 100%; font-size: 16px; line-height: 24px; color: #c1c1c1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003495}}
+footer .foo-cont-wrap .mail-box .comment-box input, footer .foo-cont-wrap .mail-box .comment-box textarea { display: inline-block; width: 255px; background: #fff; border-radius: 3px; border: 2px solid transparent; padding: 10px 0 10px 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003502}}
+footer .foo-cont-wrap .mail-box .comment-box input { font-size: 16px; line-height: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003505}}
+footer .foo-cont-wrap .mail-box .comment-box textarea { font-family: "Open Sans", sans-serif; font-weight: 400; width: 100%; height: 170px; font-size: 16px; line-height: 24px; resize: none; margin-bottom: 20px; border: 2px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003515}}
+footer .foo-cont-wrap .mail-box .comment-box input:focus, footer .foo-cont-wrap .mail-box .comment-box textarea:focus { border: 2px solid #49cbcd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003521}}
+footer .foo-cont-wrap .mail-box .comment-box .user-name { margin-right: 18px; margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003527}}
+footer .foo-cont-wrap .mail-box p .foo-btn { float: right; width: 170px; height: 50px; background-color: #49cbcd; border: none; border-radius: 3px; padding: 12px; text-align: center; color: #fff; font-size: 22px; line-height: 24px; -webkit-transition: all 0.3 ease-in-out; transition: all 0.3 ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/testovi\/Time\%20is\%20Money\/proj\/sass\/main\.sass}line{font-family:\00003543}}
+footer .foo-cont-wrap .mail-box p .foo-btn:hover { background-color: #54eaec; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); }

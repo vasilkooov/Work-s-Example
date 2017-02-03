@@ -1,0 +1,203 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\000032}}
+*, ::after, ::before { box-sizing: border-box; margin: 0; padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\000037}}
+::after, ::before { content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\000039}}
+ul { list-style: none; margin: 0; padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000313}}
+p { margin: 0; padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000317}}
+a:hover { text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000319}}
+button { background: none; border: 1px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000323}}
+button:hover { cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000325}}
+.clear { clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000327}}
+body { color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000332}}
+.container-fluid.main { position: relative; width: 100%; height: 100%; background-color: #343739; padding: 20px 20px; overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000345}}
+.logo-box { /*&:after content: "" width: 32px height: 13px background-image: url(imgs/beta.png) no-repeat 0% 0% */	 */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000346}}
+.logo-box .logo { margin-left: 50px; position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000350}}
+.logo-box .logo::after { display: block; position: absolute; top: -3px; left: 135px; width: 32px; height: 13px; background: url(../imgs/beta.png) no-repeat 0px 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000365}}
+.head-menu { overflow: hidden; text-align: right; padding-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000369}}
+.head-menu .in-head { display: inline-block; float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000372}}
+.head-menu .avatar { display: inline-block; width: 10%; margin-right: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000376}}
+.head-menu .avatar .head-avatar { padding: 25px 45px; background: url(../imgs/head-avatar.png) no-repeat 0px 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000380}}
+.head-menu .search { width: 65%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000382}}
+.head-menu .search-line-wrap { display: none; width: 240px; float: left; margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000388}}
+.head-menu .search-line-wrap .form-control { width: 100%; height: 2.2em; margin: 0; background: white; border: 1px solid #999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000395}}
+.head-menu .head-search-btn { height: 21px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\0000398}}
+.head-menu .head-search-btn span.search-btn { display: inline-block; padding: 15px; background: url(../imgs/head-search-item.png) no-repeat 0px 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003103}}
+.head-menu .more-menu-btn { display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003105}}
+.head-menu .more-menu-btn a { display: inline-block; color: #fefefe; font-size: 13px; width: 80px; padding: 0 25px 0; text-align: left; background: url(../imgs/head-arrow-item.png) no-repeat 67px 8px, url(../imgs/head-set-btn.png) no-repeat 1px 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003114}}
+.head-menu .more-menu-btn a:hover { color: #389de7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003123}}
+#head-menu-btn { display: inline-block; position: absolute; top: 6px; left: 20px; height: 20px; vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003132}}
+#head-menu-btn .menu-btn-icon { display: inline-block; vertical-align: middle; width: 20px; height: 14px; background: url(../imgs/head-menu-btn.png) no-repeat 0px 0px; background-size: 20px 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003140}}
+p.menu-fix { margin-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003142}}
+p.menu-fix a.side-menu-fixed { display: block; width: 35px; padding: 18px 0 0; background: url(../imgs/side-menu-fixed.png) no-repeat 5px 0px; transition: transform 0.3s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003149}}
+p.menu-fix a.side-menu-fixed:hover, p.menu-fix a.side-menu-fixed :active { transform: rotate(-45deg); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003153}}
+#side-menu { width: 230px; float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003158}}
+#side-menu.hide { display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003161}}
+.left-side-menu { background: #343739; overflow: hidden; color: #389de7; padding: 0px 5px 10px 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003169}}
+.left-menu-item li.active a { color: #389de7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003171}}
+.left-menu-item li { padding-top: 10px; margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003175}}
+.left-menu-item li:hover a { color: #389de7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003178}}
+.left-menu-item li a { color: #aeafb0; font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003183}}
+.left-menu-item li a.menu-item { display: block; width: 100%; padding-left: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003187}}
+.left-menu-item li a.active-item { color: #389de7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003189}}
+.left-menu-item li a.dash-item { background: url(../imgs/dash-item.png) no-repeat 0% 3px, url(../imgs/arrow-item.png) no-repeat 100% 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003191}}
+.left-menu-item li a.work-item { background: url(../imgs/work-item.png) no-repeat -1px 0px, url(../imgs/arrow-item.png) no-repeat 100% 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003193}}
+.left-menu-item li a.gym-item { background: url(../imgs/gym-item.png) no-repeat 1px 0px, url(../imgs/arrow-item.png) no-repeat 100% 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003195}}
+.left-menu-item li a.add-item { background: url(../imgs/add-item.png) no-repeat 0px 0px, url(../imgs/arrow-item.png) no-repeat 100% 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003197}}
+.left-menu-item li a.body-item { background: url(../imgs/body-item.png) no-repeat 2px 0px, url(../imgs/arrow-item.png) no-repeat 100% 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003199}}
+.left-menu-item li a.prof-item.active-item { background: url(../imgs/prof-item-active-item.png) no-repeat 0px 2px, url(../imgs/arrow-item-active-item.png) no-repeat 100% 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003201}}
+.left-menu-item li a.msg-item { background: url(../imgs/msg-item.png) no-repeat 0px 5px, url(../imgs/arrow-item.png) no-repeat 100% 6px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003206}}
+#side-contant { float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003208}}
+.contant-cont { width: calc(100% - 230px); padding-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003211}}
+.tabs-cont-wrap { overflow: hidden; background-color: #3e4042; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003215}}
+.tabs { width: auto; height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003219}}
+.tabs ul { background-color: #3e4042; margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003225}}
+.tabs ul li.active { border-bottom: 5px solid #389de7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003229}}
+.tabs ul li { display: inline-block; width: calc(100% / 8); float: left; margin: 0; overflow: hidden; text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003237}}
+.tabs ul li:hover { color: #fff; background-color: rgba(255, 255, 255, 0.1); border-bottom: 5px solid #389de5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003242}}
+.tabs ul li a.tabs-btn { display: inline-block; font-size: 14px; max-height: 50px; padding: 12px 8px 7px; color: #aeafb0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003249}}
+.tabs ul li:hover a { color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003253}}
+.tabs-cont { width: 100%; padding: 15px 25px; overflow: hidden; background-color: #efefef; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003259}}
+.tabs-cont .site-tree { font-size: 12px; width: 40%; margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003264}}
+.tabs-cont .site-tree ul li { display: inline-block; float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003268}}
+.tabs-cont .site-tree ul li:hover a { text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003271}}
+.tabs-cont a.site-tree-btn { padding: 0 5px 0 25px; background: url(../imgs/site-tree-arrow.png) no-repeat 5px 7px; color: #999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003276}}
+.tabs-cont .site-tree ul li:first-child a.site-tree-btn { padding: 0 5px 0 10px; background: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003281}}
+.profile-box-cont { width: calc(100% / 2); float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003285}}
+.profile-box-cont .profile-box { width: 100%; float: left; position: relative; overflow: hidden; padding: 15px 20px; margin: 0 10px 10px 0; background-color: #fff; border-radius: 4px; font-size: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003297}}
+.profile-box-cont .profile-box .prof-set-menu-wrap { overflow: hidden; position: absolute; top: 15px; right: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003303}}
+.profile-box-cont .profile-box .prof-set-menu-wrap .prof-set-menu { width: 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003306}}
+.profile-box-cont .profile-box .prof-info { display: inline-block; color: #333; width: 100%; margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003312}}
+.profile-box-cont .profile-box .prof-info h2 { display: inline-block; font-size: 24px; margin-left: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003317}}
+.profile-box-cont .profile-box .prof-info .prof-img-box { overflow: hidden; float: left; max-width: 154px; display: inline-block; margin-right: 1.2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003324}}
+.profile-box-cont .profile-box .prof-info ul { display: inline-block; margin-left: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003328}}
+.profile-box-cont .profile-box .prof-info ul li.prof-inf { padding-left: 40px; font-size: 16px; line-height: 32px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003334}}
+.profile-box-cont .profile-box .prof-info ul li.prof-inf.points { background: url(../imgs/prof-info.png) no-repeat 0px 7px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003336}}
+.profile-box-cont .profile-box .prof-info ul li.prof-inf.country { background: url(../imgs/prof-info.png) no-repeat 0px -25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003338}}
+.profile-box-cont .profile-box .prof-info ul li.prof-inf.year-sex { background: url(../imgs/prof-info.png) no-repeat 0px -57px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003342}}
+.prof-info-about { width: 100%; color: #333; font-size: 15px; line-height: 32px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003349}}
+.prof-info-about li.medals span { padding-top: 2px; display: inline-block; padding-left: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003354}}
+.prof-info-about li.medals span.gold-medal { background: url(../imgs/medals.png) no-repeat 9px 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003356}}
+.prof-info-about li.medals span.silver-medal { background: url(../imgs/medals.png) no-repeat -63px 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003358}}
+.prof-info-about li.medals span.bronze-medal { background: url(../imgs/medals.png) no-repeat -145px 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003361}}
+.prof-info-about .prof-about-item { overflow: hidden; margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003365}}
+.prof-info-about .prof-social-wrap { margin: 25px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003368}}
+.prof-info-about .prof-social-wrap .prof-social-item { overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003370}}
+.prof-info-about .prof-social-wrap .prof-social-item li { float: left; margin-right: 12px; transition: transform 0.1s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003375}}
+.prof-info-about .prof-social-wrap .prof-social-item li:hover { transform: rotateX(45deg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003378}}
+.prof-info-about .prof-social-wrap .prof-social-item .social-fb, .prof-info-about .prof-social-wrap .prof-social-item .social-tw, .prof-info-about .prof-social-wrap .prof-social-item .social-vk { display: inline-block; width: 34px; height: 34px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003384}}
+.prof-info-about .prof-social-wrap .prof-social-item .social-fb { background: url(../imgs/fb-tw-vk-item.png) no-repeat 0px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003386}}
+.prof-info-about .prof-social-wrap .prof-social-item .social-tw { background: url(../imgs/fb-tw-vk-item.png) no-repeat -42px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/crossfit\/for\%20m4\/styles\/style\.sass}line{font-family:\00003388}}
+.prof-info-about .prof-social-wrap .prof-social-item .social-vk { background: url(../imgs/fb-tw-vk-item.png) no-repeat -84px 0px; }
+
+/*# sourceMappingURL=style.css.map */

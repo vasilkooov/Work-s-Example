@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:700')
+
+*, ::before, ::after
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+
+::before, ::after
+	content: ""
+	z-index: 0
+
+ul
+	position: relative
+	list-style: none
+	margin: 0
+
+body
+	font: 21px/24px arial, sans-serif
+
+@font-face
+	font-family: 'Oswald', sans-serif
+	src: url(../fonts/Oswald-Regular.ttf)
+	font-size: 21px
+
+.clear
+	clear: both
+
+/*---btn-colors here
+
+/*       for btn (1-static,2-hover,3-active)
+ *         btn-for-action, in login, join-up, ...
+ *         #f1c40f > #e67e22 > #e74c3c
+ * 
+ *         btn-nav-header,footer
+ *         transparent and #1abc9c > #16a085
+ *                         #2ecc71 > #27ae60 */
+a
+	text-decoration: none
+	color: #3498db
+	transition: all .2s ease-out
+
+a:hover
+	cursor: pointer
+	color: #fff
+
+/*-- end main set*/
+
+/*----- lay-out set*/
+.lay-0
+	z-index: 0
+.lay-2
+	z-index: 2 
+.lay-4
+	z-index: 4
+.lay-6
+	z-index: 6
+.lay-10
+	z-index: 10	
+//  --end setings
+
+.wrapper-main
+	position: relative
+	width: 100%
+	//------------------del w, pink, ? postavit' max-min win.responsive
+	height: auto
+	padding: 30px 0 100px
+
+	background: url(../img/back.png) repeat
+
+	.profile-wrap
+		display: block
+		margin: 0 auto 100px
+		border: 2px solid rgba(0,0,0,.1)
+		border-radius: 4px
+		
+		height: auto
+		overflow: hidden
+		min-width: 360px
+		max-width: 720px
+		
+		transition: all .3s ease-out
+		&:hover
+			box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.3)
+
+		.prof-info
+			width: 100%
+			overflow: hidden			
+			padding: 15px 20px
+			background-color: #fff
+
+		.avatar-wrap
+			display: inline-block
+			position: relative
+			width: 120px
+			height: 120px
+			margin-right: 10px
+			float: left
+
+			span.avatar-img
+				position: absolute
+				top: 0
+				left: 0 
+				display: inline-block
+				width: 120px
+				height: 120px
+				background: url(../img/girl.png) no-repeat center/cover
+
+		.name-wrap
+			display: inline-block 
+			float: right
+			width: calc(100% - 130px)
+			line-height: 20px
+
+			strong
+				font-size: 16px
+				color: #333
+			span
+				font-size: 12px
+				color: #808080
+
+		.slogan-wrap
+			width: 85%
+			border: 1px solid #cecabf
+			background-color: #fffbc8
+			float: right
+
+			border-radius: 3px
+			margin: -70px 0 0
+
+			p
+				padding: 8px 10px 8px 60px 
+				font-size: 14px
+				line-height: 20px
+				color: #333
+
+		.skills-wrap
+			display: inline-block
+			float: right
+			width: calc( 100% - 130px)
+			height: auto
+			
+			span.uslug
+				float: right
+				padding-right: 35px
+				font-size: 13px
+				line-height: 15px
+				color: #333
+
+			.line-block-wrap
+				width: 100%
+				padding: 15px 0
+
+				border-top: 1px solid #ccc
+				border-bottom: 1px solid #ccc 
+				
+				.line-block
+					font-size: 13px
+					line-height: 26px
+
+					color: #333
+					
+					.color-block
+						display: inline-block
+						width: 70%
+						background: grey
+						margin-bottom: 5px
+						padding-left: 5px
+						border-radius: 3px
+
+					span.number
+						float: right
+						padding-right: 35px
+						font-weight: bold
+
+					.color-block.order
+						background-color: #b1e19b
+						width: 70%
+
+					.color-block.tours
+						background-color: #ace2f8
+						width: 40%
+
+					.color-block.hotels
+						background-color: #ace2f8
+						width: 25%
+		.all-skills-wrap
+			width: calc( 100% - 130px )	
+			float: right
+			padding: 10px 0
+			color: #333
+			font-size: 16px
+			line-height: 20px
+
+			.all-skills-num
+				display: inline-block
+				width: 30%
+				float: right
+				text-align: right
+				padding-right: 30px	
+				font-weight: bold			
+					
+		.recall-wrap
+			width: 100%
+			height: auto
+			position: relative
+
+			.recall-block
+				margin-bottom: 10px
+				
+				h3
+					display: inline-block
+					width: auto
+					font-size: 16px
+					line-height: 16px
+
+				a.all-recall
+					display: inline-block
+					width: auto
+					color: #005da1
+					padding-left: 15px
+
+					font-size: 14px
+					line-height: 20px
+					text-decoration: underline
+
+					&:hover
+						color: #1d8ee0
+						text-decoration: none
+				
+				ul.right-block-recall
+					position: relative
+					overflow: hidden
+					width: 40%
+					float: right
+					text-align: right
+
+					li
+						display: inline-block
+						margin-left: 10px
+					a 
+						display: inline-block
+						width: auto
+						padding-left: 20px
+						font-size: 12px	
+						color: #333
+
+					a.like-recall
+						background: url(../img/icon/icons.png) no-repeat 0px 5px
+					a.comment-recall
+						background: url(../img/icon/icons.png) no-repeat 0px -12px	
+			
+			.comment-wrap
+				position: relative
+				width: 100%
+
+				.comment-block
+					width: 100%
+					height: auto
+					position: relative
+					background-color: #fff
+	
+					.messages-box
+						display: block
+						width: 100%
+						overflow: hidden
+						padding: 10px 0
+
+		li#message.users-comment 
+			width: 100% 
+			overflow: hidden
+			padding: 0 0 10px
+			color: #333
+			font-size: 14px
+			line-height: 19px
+
+			h3 
+				display: inline-block
+				width: auto
+				float: left
+
+			span.data
+				display: inline-block
+				width: auto
+				margin-left: 8px			
+
+				color: #808080
+				font-size: 11px
+				line-height: 19px
+
+			p.msg-div
+				display: block
+				width: 100%
+				margin: 10px 0 0
+				padding: 12px 0 12px 15px
+
+				border: 1px solid #cfcfcf
+				border-radius: 4px
+				background-color: #f2fbff		
+	
+		.send-block-wrap
+			width: 100%
+			overflow: hidden
+			padding: 25px 20px 35px
+			background-color: #f2f2f2
+
+			// for user-name block
+
+			.user-name-block  
+				display: block
+				width: 70%
+				min-height: 30px
+				margin-bottom: 20px
+				border: 1px solid #cfcfcf
+				border-radius: 2px
+				padding: 12px 15px
+				font-size: 14px
+				line-height: 19px
+				color: #333
+
+			.msg-massage
+				display: block
+				width: 100%
+				min-height: 60px
+				margin-bottom: 20px
+				border: 1px solid #cfcfcf
+				border-radius: 2px
+				padding: 12px 15px
+
+				font-size: 14px
+				line-height: 19px
+				color: #333
+
+			p.send-btn-wrap
+				display: block
+				width: 100%
+				position: relative
+
+				.send-btn
+					font-family: 'PT Sans', bold
+
+					display: block
+					min-width: 270px
+					min-height: 40px
+					margin: 0 auto					
+
+					background-color: #fdd639
+					border: none
+					border-radius: 20px
+					font-weight: bold
+					color: #333
+					font-size: 16px
+					transition: all .2s ease-out
+
+					&:hover
+						color: #4a4841
+						text-decoration: underline
+						background-color: #f3cd36
+						box-shadow: 0px 2px 3px 0px rgba(0,0,0,.2)
+
+			
+
+
+						
+
+

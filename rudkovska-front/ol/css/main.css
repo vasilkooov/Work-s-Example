@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:700");
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\000033}}
+*, ::before, ::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\000038}}
+::before, ::after { content: ""; z-index: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\0000312}}
+ul { position: relative; list-style: none; margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\0000317}}
+body { font: 21px/24px arial, sans-serif; }
+
+@font-face { font-family: "Oswald", sans-serif; src: url(../fonts/Oswald-Regular.ttf); font-size: 21px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\0000325}}
+.clear { clear: both; }
+
+/*---btn-colors here */
+/*       for btn (1-static,2-hover,3-active) btn-for-action, in login, join-up, ... #f1c40f > #e67e22 > #e74c3c  btn-nav-header,footer transparent and #1abc9c > #16a085 #2ecc71 > #27ae60 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\0000337}}
+a { text-decoration: none; color: #3498db; -webkit-transition: all 0.2s ease-out; transition: all 0.2s ease-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\0000342}}
+a:hover { cursor: pointer; color: #fff; }
+
+/*-- end main set */
+/*----- lay-out set */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\0000349}}
+.lay-0 { z-index: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\0000351}}
+.lay-2 { z-index: 2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\0000353}}
+.lay-4 { z-index: 4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\0000355}}
+.lay-6 { z-index: 6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\0000357}}
+.lay-10 { z-index: 10; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\0000361}}
+.wrapper-main { position: relative; width: 100%; height: auto; padding: 30px 0 100px; background: url(../img/back.png) repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\0000370}}
+.wrapper-main .profile-wrap { display: block; margin: 0 auto 100px; border: 2px solid rgba(0, 0, 0, 0.1); border-radius: 4px; height: auto; overflow: hidden; min-width: 360px; max-width: 720px; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\0000382}}
+.wrapper-main .profile-wrap:hover { box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.3); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\0000385}}
+.wrapper-main .profile-wrap .prof-info { width: 100%; overflow: hidden; padding: 15px 20px; background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\0000391}}
+.wrapper-main .profile-wrap .avatar-wrap { display: inline-block; position: relative; width: 120px; height: 120px; margin-right: 10px; float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\0000399}}
+.wrapper-main .profile-wrap .avatar-wrap span.avatar-img { position: absolute; top: 0; left: 0; display: inline-block; width: 120px; height: 120px; background: url(../img/girl.png) no-repeat center/cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003108}}
+.wrapper-main .profile-wrap .name-wrap { display: inline-block; float: right; width: calc(100% - 130px); line-height: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003114}}
+.wrapper-main .profile-wrap .name-wrap strong { font-size: 16px; color: #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003117}}
+.wrapper-main .profile-wrap .name-wrap span { font-size: 12px; color: #808080; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003121}}
+.wrapper-main .profile-wrap .slogan-wrap { width: 85%; border: 1px solid #cecabf; background-color: #fffbc8; float: right; border-radius: 3px; margin: -70px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003130}}
+.wrapper-main .profile-wrap .slogan-wrap p { padding: 8px 10px 8px 60px; font-size: 14px; line-height: 20px; color: #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003136}}
+.wrapper-main .profile-wrap .skills-wrap { display: inline-block; float: right; width: calc( 100% - 130px); height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003142}}
+.wrapper-main .profile-wrap .skills-wrap span.uslug { float: right; padding-right: 35px; font-size: 13px; line-height: 15px; color: #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003149}}
+.wrapper-main .profile-wrap .skills-wrap .line-block-wrap { width: 100%; padding: 15px 0; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003156}}
+.wrapper-main .profile-wrap .skills-wrap .line-block-wrap .line-block { font-size: 13px; line-height: 26px; color: #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003162}}
+.wrapper-main .profile-wrap .skills-wrap .line-block-wrap .line-block .color-block { display: inline-block; width: 70%; background: grey; margin-bottom: 5px; padding-left: 5px; border-radius: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003170}}
+.wrapper-main .profile-wrap .skills-wrap .line-block-wrap .line-block span.number { float: right; padding-right: 35px; font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003175}}
+.wrapper-main .profile-wrap .skills-wrap .line-block-wrap .line-block .color-block.order { background-color: #b1e19b; width: 70%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003179}}
+.wrapper-main .profile-wrap .skills-wrap .line-block-wrap .line-block .color-block.tours { background-color: #ace2f8; width: 40%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003183}}
+.wrapper-main .profile-wrap .skills-wrap .line-block-wrap .line-block .color-block.hotels { background-color: #ace2f8; width: 25%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003186}}
+.wrapper-main .profile-wrap .all-skills-wrap { width: calc( 100% - 130px ); float: right; padding: 10px 0; color: #333; font-size: 16px; line-height: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003194}}
+.wrapper-main .profile-wrap .all-skills-wrap .all-skills-num { display: inline-block; width: 30%; float: right; text-align: right; padding-right: 30px; font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003202}}
+.wrapper-main .profile-wrap .recall-wrap { width: 100%; height: auto; position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003207}}
+.wrapper-main .profile-wrap .recall-wrap .recall-block { margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003210}}
+.wrapper-main .profile-wrap .recall-wrap .recall-block h3 { display: inline-block; width: auto; font-size: 16px; line-height: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003216}}
+.wrapper-main .profile-wrap .recall-wrap .recall-block a.all-recall { display: inline-block; width: auto; color: #005da1; padding-left: 15px; font-size: 14px; line-height: 20px; text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003226}}
+.wrapper-main .profile-wrap .recall-wrap .recall-block a.all-recall:hover { color: #1d8ee0; text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003230}}
+.wrapper-main .profile-wrap .recall-wrap .recall-block ul.right-block-recall { position: relative; overflow: hidden; width: 40%; float: right; text-align: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003237}}
+.wrapper-main .profile-wrap .recall-wrap .recall-block ul.right-block-recall li { display: inline-block; margin-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003240}}
+.wrapper-main .profile-wrap .recall-wrap .recall-block ul.right-block-recall a { display: inline-block; width: auto; padding-left: 20px; font-size: 12px; color: #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003247}}
+.wrapper-main .profile-wrap .recall-wrap .recall-block ul.right-block-recall a.like-recall { background: url(../img/icon/icons.png) no-repeat 0px 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003249}}
+.wrapper-main .profile-wrap .recall-wrap .recall-block ul.right-block-recall a.comment-recall { background: url(../img/icon/icons.png) no-repeat 0px -12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003252}}
+.wrapper-main .profile-wrap .recall-wrap .comment-wrap { position: relative; width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003256}}
+.wrapper-main .profile-wrap .recall-wrap .comment-wrap .comment-block { width: 100%; height: auto; position: relative; background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003262}}
+.wrapper-main .profile-wrap .recall-wrap .comment-wrap .comment-block .messages-box { display: block; width: 100%; overflow: hidden; padding: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003268}}
+.wrapper-main .profile-wrap li#message.users-comment { width: 100%; overflow: hidden; padding: 0 0 10px; color: #333; font-size: 14px; line-height: 19px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003276}}
+.wrapper-main .profile-wrap li#message.users-comment h3 { display: inline-block; width: auto; float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003281}}
+.wrapper-main .profile-wrap li#message.users-comment span.data { display: inline-block; width: auto; margin-left: 8px; color: #808080; font-size: 11px; line-height: 19px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003290}}
+.wrapper-main .profile-wrap li#message.users-comment p.msg-div { display: block; width: 100%; margin: 10px 0 0; padding: 12px 0 12px 15px; border: 1px solid #cfcfcf; border-radius: 4px; background-color: #f2fbff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003300}}
+.wrapper-main .profile-wrap .send-block-wrap { width: 100%; overflow: hidden; padding: 25px 20px 35px; background-color: #f2f2f2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003308}}
+.wrapper-main .profile-wrap .send-block-wrap .user-name-block { display: block; width: 70%; min-height: 30px; margin-bottom: 20px; border: 1px solid #cfcfcf; border-radius: 2px; padding: 12px 15px; font-size: 14px; line-height: 19px; color: #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003320}}
+.wrapper-main .profile-wrap .send-block-wrap .msg-massage { display: block; width: 100%; min-height: 60px; margin-bottom: 20px; border: 1px solid #cfcfcf; border-radius: 2px; padding: 12px 15px; font-size: 14px; line-height: 19px; color: #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003333}}
+.wrapper-main .profile-wrap .send-block-wrap p.send-btn-wrap { display: block; width: 100%; position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003338}}
+.wrapper-main .profile-wrap .send-block-wrap p.send-btn-wrap .send-btn { font-family: "PT Sans", bold; display: block; min-width: 270px; min-height: 40px; margin: 0 auto; background-color: #fdd639; border: none; border-radius: 20px; font-weight: bold; color: #333; font-size: 16px; -webkit-transition: all 0.2s ease-out; transition: all 0.2s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WORKS\/JOB\/rudkovska\/ol\/sass\/main\.sass}line{font-family:\00003354}}
+.wrapper-main .profile-wrap .send-block-wrap p.send-btn-wrap .send-btn:hover { color: #4a4841; text-decoration: underline; background-color: #f3cd36; box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2); }

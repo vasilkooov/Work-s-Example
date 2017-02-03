@@ -1,0 +1,96 @@
+doctype html
+html(lang='ua')
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(http-equiv='content-type', content='text/html', charset='utf-8')
+    link(rel='stylesheet', href='css/main.css', type='text/css')
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js")  
+    title Consultation
+
+  body
+          
+    .wrapper-main.back
+      .profile-wrap
+
+         //- profile info, avatar, name, e.t.c.
+         .prof-info
+            .avatar-wrap.lay-6
+               p: span.avatar-img
+
+            .name-wrap
+               strong Вероника Ростова 
+               br
+               span Менеджер по продажам
+
+            .slogan-wrap.color-block.lay-2
+               p Подберу для вас самые лучшие предложения. Мои услуги абсолютно бесплатны
+
+            //-skills wrap
+            .skills-wrap
+               span.uslug Услуг
+               br
+
+               .line-block-wrap
+                  
+                  .line-block.order 
+                     p.color-block.order Ручное бронирование
+                     span.number 11
+
+                  .line-block.tours 
+                     p.color-block.tours Пакетные туры
+                     span.number 6
+
+                  .line-block.hotels 
+                     p.color-block.hotels Отели
+                     span.number 4
+            .clear 
+
+            .all-skills-wrap
+               strong Всего
+               span.all-skills-num 21
+
+            //- recall box
+            .recall-wrap
+               .recall-block
+
+                  h3 Последние отзывы
+                  a.all-recall(href="#") Все отзывы
+
+                  ul.right-block-recall
+                     li
+                        a.like-recall(href="#")
+                           span 131
+                     li
+                        a.comment-recall(href="#")
+                           span  14          
+
+            .comment-wrap
+               .comment-block
+                  ul#msgs-box.messages-box
+
+         
+         .send-block-wrap 
+
+
+            form(id="send-comment" name="commentForm" )
+
+               //- p: input(type="text" name="user-name" id="user-name" class="user-name-block" required)
+
+               p: textarea(id="comment" type="text" class="msg-massage" name="" required placeholder="")
+               p.send-btn-wrap
+                  button(onclick="addComment(arguments[0]);" class="send-btn") Написать консультанту
+
+         .clear
+
+
+    script(id="comment-template" type='text/template').
+      <% comments.forEach(function(comment) { %>
+      <li id="message" class="users-comment">
+        <h3> <%= comment.name %> </h3>
+        <span class="data"> <%= comment.data %> </span>
+        <p class="msg-div"> <%= comment.message %> </p>
+      </li>
+      <% }); %>
+
+
+    script(src='js/main.js' type='text/javascript')    

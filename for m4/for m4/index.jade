@@ -1,0 +1,151 @@
+doctype html
+html(lang="en")
+head
+	meta(name="viewport" content="width=device-width, initial-scale=1")
+	meta(http-equiv="content-type", content="text/html", charset="utf-8")
+	title Workout Catalog)
+	link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css", integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi", crossorigin="anonymous")
+	link(rel="stylesheet", href="styles/style.css", type="text/css")
+	script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js")
+	script(src="scripts/main.js", type="text/javascript")
+			
+
+//- --------podkluchenie scripta i menu func dranik myatiy!!!!+ medali!!!
+
+body
+	.container-fluid.main(ng-app="showApp", ng-controller="mainController")
+		//-head row
+		.row(style="margin-bottom: 20px")
+			.col-sm-3.logo-box
+				.header-menu-box(ng-click="showSideBar = !showSideBar")
+					button(id="head-menu-btn")
+						a(href="#")
+						span.menu-btn-wrap
+							span.menu-btn-icon
+
+
+				a(href="#", class="logo", alt="logo-beta"): img(src="imgs/logo.png", alt="logo-beta")
+
+			.col-sm-5.offset-sm-4.head-menu
+
+				.search.in-head
+					form.bd-search
+						.search-line-wrap
+							input(type="text", class="form-control", id="search-input", placeholder="Search ...", autocomplete="off")
+						button.head-search-btn
+							span.search-btn
+						//-next div result search
+						.dropdown-menu.bd-search-results#search-results
+
+				.avatar.in-head
+					a(href="#"): span.head-avatar
+				.more-menu-btn.in-head
+					a(href="#") More
+		//- content row
+		.row
+			//- --------show/hide sidebar with angular 
+			.col-sm-3#side-menu.left-side-menu(ng-show="showSideBar")
+
+				p.menu-fix: a.side-menu-fixed(href="#", class="", alt="fixed-menu")
+
+				.left-main-menu-cont
+					ul.left-menu-item
+						li: a.menu-item.dash-item(href="#")
+							
+							| Dashboard
+
+						li: a.menu-item.work-item(href="#")
+							
+							| My Workout
+							
+						li: a.menu-item.gym-item(href="#")
+							
+							| My Gym
+
+						li: a.menu-item.add-item(href="#")
+							
+							| Add content
+						li: a.menu-item.body-item(href="#")
+							
+							| My Body
+						li: a.menu-item.prof-item.active-item(href="#")
+							
+							| Profile and setting
+						li: a.menu-item.msg-item(href="#")
+							
+							| Massage
+			
+			.col-sm-9#side-contant.contant-cont
+				.tabs-cont-wrap
+					.tabs
+						ul
+							li.active: a.tabs-btn(href="#"): span WORKOUT(WOD)
+							li: a.tabs-btn(href="#"): span EXERCISES
+							li: a.tabs-btn(href="#"): span LEADERBOARD
+							li: a.tabs-btn(href="#"): span DISCUSSION
+							li: a.tabs-btn(href="#"): span NEWS
+							li: a.tabs-btn(href="#"): span EVENTS
+							li: a.tabs-btn(href="#"): span STORE
+							li: a.tabs-btn(href="#"): span GYM&BOX	
+
+					.tabs-cont
+						.site-tree
+							ul
+								li: a.site-tree-btn(href="#") Profile and settings
+								li: a.site-tree-btn(href="#")	View profile	
+							.clear
+						.clear
+
+						.profile-box-cont
+							.profile-box
+								.prof-set-menu-wrap
+									.prof-set-menu
+										a(href="#", alt="set-menu"): img(src="imgs/prof-set-menu.png", width="6px", height="24px", alt="set-menu")
+
+								.prof-info
+									.prof-img-box
+										p: img(src="imgs/profile-img.png", width="154px", height="154px", alt="img-profile")
+
+									h2 Christmas Abbott
+									ul
+										li.prof-inf.points: span 15600
+										li.prof-inf.country: span Singapore, Jurong
+										li.prof-inf.year-sex: span 27 years, female
+								.clear		
+
+								.prof-info-about
+									ul.prof-about-item
+										li.gym
+											strong Gym:  
+											span BestGym
+										li.level 
+											strong Athlete Level:  
+											span 4
+										li.stage 
+											strong Start Crosfit:  
+											span 10 years ago
+										li.medals 
+											strong Medals:  
+											span.gold-medal x 52
+											span.silver-medal x 163
+											span.bronze-medal x 91
+									p.prof-about
+										strong About: 
+										| I'm quirky and love CF. I started my CF athletic journey in 2006 and have loved every painful minute since. I own and am head coach of CF Invoke (crossfitinvoke.com) I am a Head Trainer for CFHQ for the Level 1 Seminars. I'm venturing into the world of NASCAR as a front tire changer...a whole new world. I have an English Bulldog named Fran. Favorite WODs: Nasty Girls, Fran, Helen, Nancy....in no particular order. They are all amazing.
+
+									.prof-social-wrap
+										ul.prof-social-item
+											li
+												a(href="#", class="social-fb")
+											li
+												a(href="#", class="social-tw")
+											li
+												a(href="#", class="social-vk")
+							
+			//- saaaaaaaalamandr koala tupit! na angulare s md tegom
+	
+
+	
+	script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous")
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous")
+	script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous")		

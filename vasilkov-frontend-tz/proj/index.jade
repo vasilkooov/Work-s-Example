@@ -1,0 +1,192 @@
+doctype html
+html(lang='ua')
+   head
+      meta(name='viewport', content='width=device-width, initial-scale=1')
+      meta(http-equiv='content-type', content='text/html', charset='utf-8')
+      link(rel='stylesheet', href='css/main.css', type='text/css')
+        
+      title Author
+      link(rel="shortcut icon" href="favicon.png" type="image/png")
+      link(link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet")  
+
+   body
+      .container
+         header
+
+            .logo
+               a(href="#")
+                  img(src="img/icon/logo.png", alt="")
+
+            nav.header-nav
+            
+               ul
+                  li.nav-item
+                     a(class="nav-btn active" href="#") Home
+                  li.nav-item
+                     a(class="nav-btn" href="#") Service
+                  li.nav-item
+                     a(class="nav-btn" href="#") Portfolio
+                  li.nav-item
+                     a(class="nav-btn" href="#") Team
+                  li.nav-item
+                     a(class="nav-btn" href="#") Blog
+                  li.nav-item
+                     a(class="nav-btn" href="#") Contact
+            .clear
+         
+         section
+            .gallery-cont 
+               .aSlides.fade
+                  img(src="img/gal/slides-img.jpg", alt="slides-img", style="width=100%")
+
+                  .in-slide
+                     h1 This is a main heading
+                     p Lorem ip amet, consectetur adipisicing elit. Distinctio soluta sapiente rem.
+
+                     a(class="slide-btn" href="#")
+                        span Learn More 
+
+               .aSlides.fade
+                  img(src="img/gal/slides-img2.jpg", alt="slides-img", style="width=100%")
+                  .in-slide
+                     h1 This is a second heading
+                     p Lorem ip amet, consectetur adipisicing elit. Distinctio soluta sapiente rem.
+                     a(class="slide-btn" href="#")
+                        span Learn More 
+
+               .aSlides.fade
+                  img(src="img/gal/slides-img3.jpg", alt="slides-img", style="width=100%")
+                  .in-slide
+                     h1 This is a third heading
+                     p Lorem ip amet, consectetur adipisicing elit. Distinctio soluta sapiente rem.
+                     a(class="slide-btn" href="#")
+                        span Learn More  
+
+
+               a(class="prev" onclick="plusSlides(-1)") 
+               a(class="next" onclick="plusSlides(1)")
+         .clear
+
+         section.team
+            .teammate-block.team-box
+               .img-person
+                  img(src="img/page/img-team1.png", alt="teammate-person" style="width: 201px; height=201px")
+                  .plus   
+               h3 Adrian Thomas
+               span CEO & Founder
+               p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+
+            .teammate-block.team-box
+               .img-person
+                  img(src="img/page/img-team1.png", alt="teammate-person" style="width: 201px; height=201px")
+                  .plus.active  
+               h3 Narate Ketram
+               span Creative Director
+               p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+
+            .teammate-block.team-box
+               .img-person
+                  img(src="img/page/img-team1.png", alt="teammate-person" style="width: 201px; height=201px")
+                  .plus   
+               h3 Fernando Comet
+               span CEO & Founder
+               p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+
+            .teammate-block.team-box
+               .img-person
+                  img(src="img/page/img-team1.png", alt="teammate-person" style="width: 201px; height=201px")
+                  .plus   
+               h3 Adedayo saheed
+               span Creative Director
+               p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been    
+         .clear
+
+         section.prop
+            .proposition-block
+
+               .basic-box.prop-box
+                  .prop-title
+                     h2 Basic
+                  h3 $5.01/ Month
+                  ul
+                     li: span Lorem ipsum 
+                     li: span Dolor sit amet, consect
+                     li: span Adipiscing elit
+                     li: span Proin commodo turpis
+                     li: span lacus pulvinarvel 
+                     li: span Prnare nisi pretium.
+
+
+                  p: a(class="prop-btn" href="#")
+                     span Buy now
+
+               .pro-box.prop-box.active
+                  .prop-title
+                     h2 Pro
+                  h3 $10.01/ Month
+                  ul
+                     li: span Lorem ipsum 
+                     li: span Dolor sit amet, consect
+                     li: span Adipiscing elit
+                     li: span Proin commodo turpis
+                     li: span lacus pulvinarvel 
+                     li: span Prnare nisi pretium.
+
+                  p: a(class="prop-btn" href="#")
+                     span Buy now
+
+               .premium-box.prop-box
+                  .prop-title
+                     h2 Premium
+                  h3 $20.01/ Month
+                  ul
+                     li: span Lorem ipsum 
+                     li: span Dolor sit amet, consect
+                     li: span Adipiscing elit
+                     li: span Proin commodo turpis
+                     li: span lacus pulvinarvel 
+                     li: span Prnare nisi pretium.
+
+                  p: a(class="prop-btn" href="#")
+                     span Buy now
+         .clear
+
+      footer
+         .foo-cont-wrap   
+            .foo-title
+               h2 Contact Us
+
+            .info-box.left-side
+               .touch-box
+                  h3 Get in touch with us
+                  p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.
+
+               .social-box
+                  a.fb.soc-item(href="#")
+                  a.tw.soc-item(href="#")
+                  a.g.soc-item(href="#")   
+                  .clear
+               .contacts
+                  p Posted by Dospel & GanjaParker
+                  p +XX-XXXX - XXXX - XX
+                  p info@mail.com  
+
+            .mail-box.right-side
+               form
+                  .comment-box   
+                     input.user-name(min="2" type="text" name="user-name" placeholder="Name" required)
+
+                     input.user-email(min="2" type="email" name="user-email" placeholder="Email" required)
+
+                     textarea(min="2" name="comment" placeholder="Message" required)
+
+                  p: input.foo-btn(type="submit" name="foo-btn" value="Send")
+
+                     
+
+
+
+
+
+
+      script(src='js/main.js' type='text/javascript')    
